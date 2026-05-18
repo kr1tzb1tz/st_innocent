@@ -42,7 +42,7 @@ const FAQS_DATA = {
     {
       question: "Our parish",
       answer:
-        'St. Innocent Orthodox Church is a parish of the Orthodox Church in America (OCA), under the leadership of His Eminence, Archbishop Daniel. We are in full communion with all canonical Orthodox Churches throughout the world, including Russian Orthodox, Greek Orthodox, Antiochian Orthodox, Serbian Orthodox, and many others. Our community began as a small mission in the 1980s and today we are a vibrant, thriving parish, full of both "cradles" and converts alike.',
+        'St. Innocent Orthodox Church is a parish of the Orthodox Church in America (OCA), under the leadership of His Eminence, Archbishop Daniel. We are in full communion with all canonical Orthodox Churches throughout the world, including Russian Orthodox, Greek Orthodox, Antiochian Orthodox, Serbian Orthodox, and many others. Our community began as a small mission in the 1980s and today we are a vibrant, thriving parish, full of both "cradles" and converts alike. See our diocesan website at <a href="https://domoca.org/">domoca.org</a>.',
     },
   ],
 };
