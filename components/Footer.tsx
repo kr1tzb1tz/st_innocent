@@ -12,6 +12,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import MarkunreadMailboxIcon from "@mui/icons-material/MarkunreadMailbox";
 
 // Static content
 const FOOTER_DATA = {
@@ -112,6 +113,17 @@ export default function Footer() {
                 >
                   <LocationOnIcon style={{ fontSize: "1rem", verticalAlign: "middle" }} />{" "}
                   {FOOTER_DATA.address}
+                </Box>
+                <Box
+                  sx={{
+                    display: "block",
+                    fontSize: "1rem",
+                    marginBottom: "0.5rem",
+                    color: "inherit",
+                  }}
+                >
+                  <MarkunreadMailboxIcon style={{ fontSize: "1rem", verticalAlign: "middle" }} />{" "}
+                  PO Box 38208, Olmsted Falls, OH 44138
                 </Box>
                 <Box
                   component="a"
