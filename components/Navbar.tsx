@@ -20,6 +20,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 // Static content
 const NAV_DATA = {
   supportLink: "https://secure.myvanco.com/L-YRN8/home",
+  merchLink: "https://tinyurl.com/Saint-Innocent-Apparel",
 };
 
 interface NavItem {
@@ -41,6 +42,7 @@ export default function Navbar() {
     { title: "Calendar", link: "/#calendar" },
     { title: "Ministries", link: "/ministries" },
     { title: "Becoming Orthodox", link: "/becoming_orthodox" },
+    { title: "Merch", link: NAV_DATA.merchLink },
     { title: "Support", link: NAV_DATA.supportLink },
   ];
 
